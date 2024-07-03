@@ -14,13 +14,6 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/create', function () {
-    return view('create');
-});
-
-Route::post('/store', function () {
-    return view('about');
-});
 
 
 Route::get('/about', function () {
